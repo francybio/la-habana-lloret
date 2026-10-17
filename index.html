@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Habana · Hostal, bar y restaurante · Lloret de Mar</title>
+<meta name="description" content="La Habana, restaurante y aparthotel familiar en el casco antiguo de Lloret de Mar (Carrer de les Taronges, 11). Cocina mediterránea con decoración cubana: paella casera, tapas, pizzas, menú del día y desayunos. Abierto todos los días de 9 a 23 h. Pet friendly.">
+<meta name="theme-color" content="#5B3D8C">
+<meta property="og:title" content="La Habana · Lloret de Mar">
+<meta property="og:description" content="Cocina de aquí con alma caribeña. Restaurante y apartamentos, todos los días de 9 a 23 h.">
+<meta property="og:image" content="assets/img/comedor.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%235B3D8C'/%3E%3Cpath d='M31 50V30' stroke='%23F3C431' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M31 30c-6-9-15-9-20-4 7-2 13 0 20 4zm0 0c6-9 15-9 20-4-7-2-13 0-20 4zm0 0c-3-8-1-14 6-17-3 5-4 10-6 17zm0 0c-4-6-10-9-16-8 6 1 11 4 16 8z' fill='%23F3C431'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Gochi+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ ENTRADA · persianas ============ -->
+<div class="blinds" id="blinds" aria-hidden="true">
+  <div class="blinds__leaf blinds__leaf--l"></div>
+  <div class="blinds__leaf blinds__leaf--r"></div>
+  <p class="blinds__name"><span>La</span>Habana</p>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a class="logo" href="#top" aria-label="La Habana, inicio">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M19 36V19" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M19 19c-4-7-11-7-15-3 5-1 10 0 15 3zm0 0c4-7 11-7 15-3-5-1-10 0-15 3zm0 0c-2-6-1-11 5-13-2 4-3 8-5 13zm0 0c-3-5-8-7-13-6 5 1 9 3 13 6z" fill="currentColor"/></svg>
+    <span>La Habana</span>
+  </a>
+  <nav class="nav__links" aria-label="Secciones">
+    <a href="#fachada">La casa</a>
+    <a href="#pizarra">La pizarra</a>
+    <a href="#platos">Platos</a>
+    <a href="#noche">Noche cubana</a>
+    <a href="#apartamentos">Apartamentos</a>
+    <a href="#visita">Cómo llegar</a>
+  </nav>
+  <a class="nav__call" href="tel:+34972372024"><i class="ph-bold ph-phone"></i><span>972 37 20 24</span></a>
+  <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Menú"><span></span><span></span></button>
+</header>
+<div class="drawer" id="drawer">
+  <a href="#fachada">La casa</a><a href="#pizarra">La pizarra</a><a href="#platos">Platos</a><a href="#noche">Noche cubana</a><a href="#apartamentos">Apartamentos</a><a href="#visita">Cómo llegar</a>
+  <a class="drawer__call" href="tel:+34972372024">972 37 20 24</a>
+</div>
+
+<main id="top">
+
+  <!-- ============ PORTADA · LA FACHADA ============ -->
+  <section class="hero" id="fachada">
+    <div class="hero__head">
+      <p class="hero__kicker">Hostal · Bar · Restaurant · Lloret de Mar</p>
+      <h1 class="hero__title">La <span>Habana</span></h1>
+      <p class="hero__lead">Cocina de aquí con alma caribeña, en una casa del casco antiguo. Toca las ventanas y las puertas: detrás de cada una hay un rincón de la casa.</p>
+    </div>
+
+    <div class="clouds" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="facade" id="facade">
+      <svg class="facade__svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+        <defs>
+          <pattern id="stucco" width="40" height="40" patternUnits="userSpaceOnUse"><rect width="40" height="40" fill="#FBF3E4"/><circle cx="7" cy="9" r="1" fill="#efe2cb"/><circle cx="29" cy="23" r="1.2" fill="#efe2cb"/><circle cx="17" cy="33" r=".8" fill="#ead9bd"/></pattern>
+          <pattern id="tiles" width="34" height="34" patternUnits="userSpaceOnUse"><rect width="34" height="34" fill="#D9C7A6"/><path d="M0 17h34M17 0v34" stroke="#c4af8a" stroke-width="1"/><circle cx="17" cy="17" r="5" fill="none" stroke="#b79d74" stroke-width="1"/></pattern>
+          <linearGradient id="awn" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#6B4BA0"/><stop offset="1" stop-color="#4E3478"/></linearGradient>
+        </defs>
+        <!-- edificio -->
+        <rect x="70" y="40" width="1060" height="760" fill="url(#stucco)"/>
+        <rect x="70" y="40" width="1060" height="18" fill="#efe2cb"/>
+        <rect x="56" y="30" width="1088" height="14" rx="3" fill="#e2d2b4"/>
+        <!-- línea de forjado -->
+        <rect x="70" y="318" width="1060" height="12" fill="#efe2cb"/>
+        <!-- balcones (barandillas) -->
+        <g class="rail" stroke="#2A1B3D" stroke-width="3" fill="none">
+          <path d="M150 300h210M150 300v-56M360 300v-56M150 244h210"/><path d="M165 244v56M180 244v56M195 244v56M210 244v56M225 244v56M240 244v56M255 244v56M270 244v56M285 244v56M300 244v56M315 244v56M330 244v56M345 244v56" stroke-width="2"/>
+          <path d="M840 300h210M840 300v-56M1050 300v-56M840 244h210"/><path d="M855 244v56M870 244v56M885 244v56M900 244v56M915 244v56M930 244v56M945 244v56M960 244v56M975 244v56M990 244v56M1005 244v56M1020 244v56M1035 244v56" stroke-width="2"/>
+        </g>
+        <rect x="140" y="298" width="230" height="10" rx="2" fill="#cdbb98"/>
+        <rect x="830" y="298" width="230" height="10" rx="2" fill="#cdbb98"/>
+        <!-- macetas con hortensias -->
+        <g class="flowers">
+          <rect x="160" y="226" width="40" height="22" rx="4" fill="#B5643E"/><circle cx="170" cy="222" r="12" fill="#E7A3B7"/><circle cx="188" cy="218" r="13" fill="#F0B9C8"/><circle cx="180" cy="210" r="10" fill="#D98BA2"/>
+          <rect x="1000" y="226" width="40" height="22" rx="4" fill="#B5643E"/><circle cx="1010" cy="222" r="12" fill="#B9A3E0"/><circle cx="1028" cy="218" r="13" fill="#CDB9F0"/><circle cx="1020" cy="210" r="10" fill="#A58BD4"/>
+        </g>
+        <!-- toldo -->
+        <path d="M100 392h1000l-16 46H116z" fill="url(#awn)"/>
+        <path d="M116 438 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0 q 21 20 42 0" fill="#4E3478"/>
+        <text x="600" y="428" text-anchor="middle" font-family="Limelight, serif" font-size="32" fill="#F3C431" letter-spacing="8">LA HABANA</text><text x="330" y="424" text-anchor="middle" font-family="Limelight, serif" font-size="18" fill="#FBF3E4" letter-spacing="5">APARTHOTEL</text><text x="870" y="424" text-anchor="middle" font-family="Limelight, serif" font-size="18" fill="#FBF3E4" letter-spacing="5">RESTAURANT</text>
+        <!-- cartel colgante -->
+        <g class="sign">
+          <path d="M1080 350h70" stroke="#2A1B3D" stroke-width="5"/><path d="M1100 350v18M1140 350v18" stroke="#2A1B3D" stroke-width="2"/>
+          <g transform="translate(1120 412) rotate(45)"><rect x="-38" y="-38" width="76" height="76" rx="6" fill="#FBF3E4" stroke="#5B3D8C" stroke-width="5"/></g>
+          <text x="1120" y="408" text-anchor="middle" font-family="Limelight, serif" font-size="15" fill="#5B3D8C">LA</text>
+          <text x="1120" y="428" text-anchor="middle" font-family="Limelight, serif" font-size="17" fill="#5B3D8C">HABANA</text>
+        </g>
+        <!-- suelo / acera -->
+        <rect x="0" y="760" width="1200" height="40" fill="url(#tiles)"/>
+        <!-- pizarra de la fachada -->
+        <g class="board">
+          <rect x="490" y="520" width="78" height="150" rx="4" fill="#5B3D8C"/><rect x="497" y="527" width="64" height="136" fill="#1E1B1D"/>
+          <path d="M504 548h48M504 562h40M504 576h44M504 590h36M504 604h46M504 618h38M504 632h42" stroke="#F3EEE3" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+        </g>
+        <!-- mesa y sillas de mimbre -->
+        <g class="terrace" transform="translate(-90 0)">
+          <rect x="420" y="676" width="120" height="10" rx="3" fill="#F3EEE3"/><path d="M480 686v66M458 752h44" stroke="#2A1B3D" stroke-width="5"/>
+          <path d="M392 700h40l6 52M398 700l-6 52M392 700v-36h40v36" stroke="#C99A5B" stroke-width="5" fill="none"/>
+          <path d="M528 700h40l6 52M534 700l-6 52M528 700v-36h40v36" stroke="#C99A5B" stroke-width="5" fill="none"/>
+          <circle cx="470" cy="668" r="7" fill="#7FC6C2"/><path d="M500 676v-20l8 0v20" fill="#E66A4E"/>
+        </g>
+        <!-- perro -->
+        <g class="dog" transform="translate(872 712) scale(.9)">
+          <ellipse cx="0" cy="22" rx="34" ry="16" fill="#E9C99A"/><circle cx="-30" cy="6" r="14" fill="#E9C99A"/><path d="M-40 -4l-6 -14 10 6zM-24 -6l2 -14 6 10z" fill="#C79E6B"/><circle cx="-34" cy="4" r="2" fill="#2A1B3D"/><path d="M28 18q14-10 10-22" stroke="#E9C99A" stroke-width="6" fill="none" stroke-linecap="round" class="dog__tail"/><path d="M-20 36v14M-4 36v14M14 36v14M24 34v14" stroke="#E9C99A" stroke-width="6" stroke-linecap="round"/>
+        </g>
+        <!-- palmera -->
+        <g class="palm">
+          <path d="M40 800 C 60 640, 40 520, 90 420" stroke="#8C6A45" stroke-width="16" fill="none" stroke-linecap="round"/>
+          <path d="M40 800 C 60 640, 40 520, 90 420" stroke="#6E5134" stroke-width="16" fill="none" stroke-dasharray="4 22"/>
+          <g transform="translate(90 420)"><g class="palm__crown">
+            <path d="M0 0 C 40 -40, 110 -30, 150 10 C 100 -10, 50 -10, 0 0z" fill="#2E8B57"/>
+            <path d="M0 0 C -30 -50, -100 -60, -140 -30 C -90 -30, -40 -20, 0 0z" fill="#3BA06A"/>
+            <path d="M0 0 C 20 -60, 80 -100, 130 -90 C 80 -70, 40 -40, 0 0z" fill="#3BA06A"/>
+            <path d="M0 0 C -10 -60, -50 -110, -100 -120 C -60 -90, -30 -50, 0 0z" fill="#2E8B57"/>
+            <path d="M0 0 C 50 10, 100 50, 110 100 C 80 60, 40 30, 0 0z" fill="#2B7E4F"/>
+            <path d="M0 0 C -40 20, -80 70, -80 120 C -60 70, -30 40, 0 0z" fill="#2B7E4F"/>
+          </g></g>
+        </g>
+      </svg>
+
+      <!-- ventanas y puertas (interactivas) -->
+      <div class="openings" id="openings"></div>
+      <a class="facade__board" href="#pizarra" aria-label="Ver la pizarra de la puerta"></a>
+    </div>
+
+    <div class="hero__ui">
+      <article class="room" id="room" aria-live="polite">
+        <p class="room__no" id="roomNo">Toca una ventana</p>
+        <h2 class="room__t" id="roomT">Siete rincones, una casa</h2>
+        <p class="room__d" id="roomD">Comedor, terraza, barra, cocina, desayunos y habitaciones: todo bajo el mismo techo, abierto de 9 de la mañana a 11 de la noche.</p>
+      </article>
+      <div class="hero__btns">
+        <button class="btn btn--sun" id="openAll" type="button"><i class="ph-bold ph-door-open"></i><span>Abrir todas</span></button>
+        <button class="btn btn--line" id="zoomRoom" type="button" disabled><i class="ph-bold ph-magnifying-glass-plus"></i><span>Verlo en grande</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CIFRAS ============ -->
+  <section class="stats">
+    <div class="stat"><b>9–23 h</b><span>todos los días</span></div>
+    <div class="stat"><b>9–12 h</b><span>desayunos y zumos</span></div>
+    <div class="stat"><b>18 €</b><span>menú diari</span></div>
+    <div class="stat"><b>4,6 ★</b><span>526 reseñas en Google</span></div>
+    <div class="stat"><b><i class="ph-bold ph-paw-print"></i></b><span>pet friendly</span></div>
+  </section>
+
+  <!-- ============ LA PIZARRA ============ -->
+  <section class="pizarra" id="pizarra">
+    <div class="pizarra__copy">
+      <p class="kicker">La pizarra de la puerta</p>
+      <h2 class="h2">Lo que se <em>escribe</em> con tiza</h2>
+      <p class="lead">Cocina mediterránea de toda la vida —paella, tapas, pescadito, pizzas— servida entre retratos de Cuba, azulejos y techos lilas.</p>
+      <ul class="menus">
+        <li><b>Menú completo</b><span>entrante + plato principal + postre + bebida</span></li>
+        <li><b>Menú exprés</b><span>plato principal + ensalada o sopa</span></li>
+      </ul>
+      <p class="pizarra__fine">Precios de la pizarra y de un tique de junio de 2026. Pueden variar: pregunta en sala.</p>
+    </div>
+    <div class="board" id="board">
+      <div class="board__in">
+        <p class="board__logo">La Habana</p>
+        <p class="board__sub">Hostal · Bar · Restaurant</p>
+        <p class="board__h">Breakfast · <span>de 9:00 a 12:00 h</span></p>
+        <p class="board__line board__line--c">Zumos naturales recién exprimidos</p>
+        <p class="board__line board__line--c">Bocadillos · sandwiches</p>
+        <ul class="board__list" id="boardList"></ul>
+        <p class="board__h board__h--b">Vermut + tapa de bravas <span>5,50</span></p>
+        <p class="board__h board__h--b">Menú diari <span>18,00</span></p>
+      </div>
+      <span class="board__chalk" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <!-- ============ PLATOS · azulejos ============ -->
+  <section class="platos" id="platos">
+    <header class="sec-head">
+      <p class="kicker">De la cocina</p>
+      <h2 class="h2">Platos <em>de azulejo</em></h2>
+      <p class="lead">Lo que sale de la cocina, visto por nosotros en Instagram y por nuestros clientes en Google. Arrástralo o déjalo correr.</p>
+    </header>
+    <div class="tiles" id="tiles"><div class="tiles__track" id="tilesTrack"></div></div>
+  </section>
+
+  <!-- ============ NOCHE CUBANA ============ -->
+  <section class="noche" id="noche">
+    <div class="noche__sign" aria-hidden="true"><span>Fiesta</span><b>cubana</b></div>
+    <div class="noche__grid">
+      <div class="noche__copy">
+        <p class="kicker">Noche cubana</p>
+        <h2 class="h2">Mesas largas,<br><em>brindis</em> y música</h2>
+        <p class="lead">Grupos de amigos, equipos de rugby franceses, antiguos compañeros de hotel… Cuando cae la noche en la calle de les Taronges, aquí ponemos el ambiente.</p>
+        <button class="btn btn--sun" id="nocheSnd" type="button"><i class="ph-bold ph-speaker-simple-slash"></i><span>Con sonido</span></button>
+      </div>
+      <figure class="reel reel--a"><video id="vAmb" src="assets/video/ambiente.mp4" poster="assets/img/v-ambiente.jpg" muted loop playsinline preload="none" aria-label="Vídeo: buena comida y buen ambiente en La Habana"></video><figcaption>Buena comida y buen ambiente</figcaption></figure>
+      <figure class="reel reel--b"><video id="vFie" src="assets/video/fiesta.mp4" poster="assets/img/v-fiesta.jpg" muted loop playsinline preload="none" aria-label="Vídeo: empezando el verano con amigos franceses"></video><figcaption>Commencer l’été avec nos amis</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ============ APARTAMENTOS ============ -->
+  <section class="apart" id="apartamentos">
+    <div class="apart__pics" id="apartPics">
+      <img src="assets/img/hab-1.jpg" alt="Habitación con papel pintado de hojas tropicales y colcha de corales" class="is-on" loading="lazy">
+      <img src="assets/img/hab-2.jpg" alt="Habitación doble con cocina office" loading="lazy">
+      <img src="assets/img/hab-3.jpg" alt="Perchero de madera con un vestido y cuadro de cerezas" loading="lazy">
+      <img src="assets/img/hab-4.jpg" alt="Habitación con televisión y escritorio" loading="lazy">
+      <img src="assets/img/hab-bano.jpg" alt="Baño con ducha y azulejos" loading="lazy">
+      <div class="apart__dots" id="apartDots"></div>
+    </div>
+    <div class="apart__copy">
+      <p class="kicker">Aparthotel</p>
+      <h2 class="h2">Dormir <em>encima</em> del restaurante</h2>
+      <p class="lead">Habitaciones de distintos tamaños, una terraza para desayunar al sol y la playa a dos minutos andando. Y sí: tus mascotas también son bienvenidas.</p>
+      <ul class="ticks">
+        <li><i class="ph-bold ph-paw-print"></i>Se admiten perros, gatos… y hasta peces</li>
+        <li><i class="ph-bold ph-waves"></i>Playa a 2 minutos a pie</li>
+        <li><i class="ph-bold ph-sun"></i>Terraza y desayunos de 9 a 12</li>
+      </ul>
+      <div class="apart__cta">
+        <a class="btn btn--sun" href="tel:+34972372024"><i class="ph-bold ph-phone"></i><span>Reservar · 972 37 20 24</span></a>
+        <a class="btn btn--line" href="https://www.booking.com/searchresults.es.html?ss=La+Habana+Apart+Hotel+Lloret+de+Mar" target="_blank" rel="noopener"><span>Booking.com</span><i class="ph-bold ph-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESEÑAS ============ -->
+  <section class="resenas">
+    <p class="kicker">Lo que dicen</p>
+    <div class="postcards" id="postcards">
+      <blockquote class="pc"><p>«Una decoración con inspiración cubana y caribeña que le da un toque diferente y muy llamativo respecto a otros locales de la zona.»</p><cite>Reseña en Google</cite></blockquote>
+      <blockquote class="pc"><p>«El menú diario de entre semana, unos 18 €. La decoración tiene un toque cubano, pero la comida es de aquí. Recomendado.»</p><cite>Reseña en Google</cite></blockquote>
+      <blockquote class="pc"><p>«Pedimos una paella de carne y de postre una tarta de queso, y todo muy bueno. Tienen terraza delante y detrás del local.»</p><cite>Reseña en Google</cite></blockquote>
+      <blockquote class="pc"><p>«Los trabajadores y los dueños: atentos, cercanos y súper simpáticos. Nos hemos sentido como en casa.»</p><cite>Reseña en Google</cite></blockquote>
+    </div>
+  </section>
+
+  <!-- ============ VISITA ============ -->
+  <section class="visita" id="visita">
+    <div class="visita__copy">
+      <p class="kicker">Cómo llegar</p>
+      <h2 class="h2">Carrer de les <em>Taronges</em>, 11</h2>
+      <p class="lead">En el casco antiguo de Lloret de Mar, a dos minutos de la playa. Terraza delante y detrás de la casa.</p>
+      <dl class="visita__dl">
+        <div><dt>Horario</dt><dd>Todos los días · 9:00 – 23:00</dd></div>
+        <div><dt>Desayunos</dt><dd>9:00 – 12:00</dd></div>
+        <div><dt>Teléfono</dt><dd><a href="tel:+34972372024">972 37 20 24</a></dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/lahabanalloret/" target="_blank" rel="noopener">@lahabanalloret</a></dd></div>
+      </dl>
+      <p class="live" data-live><i></i><span data-live-text>Horario</span></p>
+    </div>
+    <figure class="visita__pic"><img src="assets/img/gm-05.jpg" alt="Fachada de La Habana: casa blanca con puertas lilas, toldo y terraza en la calle" loading="lazy"></figure>
+    <div class="visita__map"><iframe title="Mapa: La Habana, Carrer de les Taronges 11, Lloret de Mar" src="https://maps.google.com/maps?q=La%20Habana%20Restaurant%2C%20Carrer%20de%20les%20Taronges%2011%2C%20Lloret%20de%20Mar&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__tiles" aria-hidden="true"></div>
+  <p class="foot__big" aria-hidden="true">La Habana</p>
+  <div class="foot__row">
+    <span>La Habana · Hostal, bar y restaurante · Carrer de les Taronges, 11 · Lloret de Mar</span>
+    <span>Fotos y vídeos: Instagram @lahabanalloret y clientes en Google</span>
+  </div>
+</footer>
+
+<!-- visor -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Vista ampliada" hidden>
+  <figure class="lb__fig"><div class="lb__media" id="lbMedia"></div><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb__close" type="button" aria-label="Cerrar"><i class="ph-bold ph-x"></i></button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
